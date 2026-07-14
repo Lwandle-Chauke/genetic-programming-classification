@@ -164,7 +164,7 @@ genetic-programming-classification/
 
 ---
 
-# ⚙️ Running the Project
+# Running the Project
 
 Clone the repository
 

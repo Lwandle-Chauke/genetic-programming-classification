@@ -1,18 +1,18 @@
-# 🧬 GP Core Engine (Person 1 Framework)
+# GP Core Engine (Lwandle: Framework)
 
-**Project:** COS314 Assignment 3 - Breast Cancer Classification  
+**Project:** Breast Cancer Classification  
 **Role:** Core GP Engine (Foundation)  
 
-## 📝 Overview
-This repository contains the foundational Genetic Programming (GP) Engine. It provides the reusable backbone that will be used by both the Arithmetic Classifier (Person 2) and the Decision Tree Classifier (Person 3). 
+## Overview
+This repository contains the foundational Genetic Programming (GP) Engine. It provides the reusable backbone that will be used by both the Arithmetic Classifier (Omphemetse) and the Decision Tree Classifier (Boipelo). 
 
 Currently, the engine is fully functional and uses a placeholder `AddNode` and constants to demonstrate the successful implementation of the evolutionary loop, genetic operators, and automated experiment running.
 
 ---
 
-## 🛠️ What I Built (My Responsibilities)
+## What I Built (My Responsibilities)
 
-I have successfully implemented all requirements specified for **Person 1**:
+I have successfully implemented all requirements specified for **Lwandle**:
 
 *   **Tree Data Structure & Node Representation:** Built the highly extensible `GPNode` interface and `Individual` wrapper. Provided baseline implementations (`FeatureNode`, `ConstNode`, `AddNode`).
 *   **Initialization:** Implemented the required **Ramped Half-and-Half** random tree generation method (`TreeGenerator.java`).
@@ -28,7 +28,7 @@ I have successfully implemented all requirements specified for **Person 1**:
 
 ---
 
-## 📁 File Structure
+## File Structure
 ```text
 ProjectRoot/
 │
@@ -39,7 +39,7 @@ ProjectRoot/
 └── src/
     └── gp/
         └── core/
-            ├── AddNode.java           (Template for Person 2)
+            ├── AddNode.java           (Template for Omphemetse)
             ├── ConstNode.java         (Terminal Node)
             ├── Crossover.java         (Genetic Operator)
             ├── CSVLoader.java         (Data Pre-processing)
@@ -60,7 +60,7 @@ ProjectRoot/
 
 ---
 
-## ⚙️ How to Compile
+## How to Compile
 
 This framework requires **Java 8+**. No external libraries are needed.
 
@@ -74,7 +74,7 @@ javac -d out src/gp/core/*.java
 
 ---
 
-## 🚀 How to Run & Test My Code
+## How to Run & Test My Code
 
 ### 1. Training Demonstration (Single Run)
 To prove the evolutionary loop works, this command will run a single instance of 100 generations. It will print the Best and Average fitness per generation, display the best mathematical tree, and output final test metrics.
